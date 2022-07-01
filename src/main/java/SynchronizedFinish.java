@@ -6,7 +6,11 @@ public class SynchronizedFinish {
         if (finishCounter++ == 0){
             System.out.println("Победил " + name);
 //            finishCounter ++ ;
+        } else {
+
+            System.out.println(((int)finishCounter ) + " место занял " + name);
         }
+
 /*        do{
         finishCounter ++ ;
             System.out.println(((int)finishCounter +1) + " место занял " + name);

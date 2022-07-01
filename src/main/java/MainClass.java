@@ -30,7 +30,7 @@ public class MainClass {
         System.out.println(">>> >>> Гонка кончилась <<< <<<");
 */    }
 
-/*    public static void finish(Car[] cars){
+/*    static void finish(Car[] cars){
         int finishСounter = 0;
         synchronized (Car.class){
             for (Car car:cars) {
